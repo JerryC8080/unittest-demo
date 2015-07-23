@@ -4,6 +4,7 @@
   "description": "",
   "devDependencies": {
     "mocha": "*",
+    "istanbul": "*",
     "muk": "^0.3.2",
     "rewire": "^2.3.4",
     "should": "*"
