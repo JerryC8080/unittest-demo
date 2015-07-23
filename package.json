@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha"
+    "test": "mocha"
   },
   "author": "JerryC",
   "license": "ISC"
