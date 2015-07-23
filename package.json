@@ -1,0 +1,17 @@
+{
+  "name": "unittest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "mocha": "*",
+    "muk": "^0.3.2",
+    "rewire": "^2.3.4",
+    "should": "*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "author": "JerryC",
+  "license": "ISC"
+}
