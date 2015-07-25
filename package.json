@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
-    "mocha": "*",
+    "bluebird": "^2.9.34",
     "istanbul": "*",
+    "mocha": "*",
     "muk": "^0.3.2",
     "rewire": "^2.3.4",
-    "should": "*"
+    "should": "*",
+    "should-promised": "^0.3.0"
   },
   "main": "index.js",
   "scripts": {
