@@ -31,9 +31,8 @@
 
 Nodejs的测试框架还用说？大家都在用，Mocha。
 
-Mocha 是一个功能丰富的Javascript测试框架，它能运行在Node.js和浏览器中，支持**BDD**、**TDD**、**QUnit**、**Exports**式的测试，本文主要示例是使用更接近与思考方式的BDD，如果了解更多可以访问Mocha的[官网](http://mochajs.org/)
+Mocha 是一个功能丰富的Javascript测试框架，它能运行在Node.js和浏览器中，支持**BDD**、**TDD**、**QUnit**、**Exports**式的测试，本文主要示例是使用更接近与思考方式的BDD，如果了解更多可以访问Mocha的[官网](http://mochajs.org/)
 
-#### 
 
 #### 测试接口
 
@@ -130,7 +129,7 @@ it('limit should success', function () {
 
 
 
-## 需求变更
+## 需求变更
 
 需求变更啦： `limit`这个方法还要求返回值大于100时返回100。
 
@@ -271,7 +270,7 @@ describe("getContent", function () {
 
 
 
-#### Mock库
+#### Mock库
 
 Mock小模块：[`muk`](https://github.com/fent/node-muk) ，略微优美的写法：
 
@@ -432,7 +431,7 @@ $ istanbul cover _mocha -- tests/test.sqrt.js -R spec
 
 
 
-## 使用Makefile串起项目 （未完成）
+## 使用Makefile串起项目
 
 ```
 TESTS = test/*.test.js
